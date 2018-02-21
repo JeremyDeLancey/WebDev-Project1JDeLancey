@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Project1Quiz</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="main">
+	
+	<div class="heading">
+		<h1>The Super Smash Bros. Melee for the Nintendo Gamecube Quiz</h1>
+
+			<sub>Will hereafter be referred to as "Melee"</sub>
+	</div>
+
+	<form>
+
+			<p>1: What controller do you use to play Melee?</p>
+
+				<input type="radio" name="bestCont" value="1"><label>Gamecube Controller</label>
+
+				<input type="radio" name="bestCont" value="2"><label>Keyboard</label>
+
+				<input type="radio" name="bestCont" value="3" checked><label>Zune</label>
+					
+
+		
+			<p>2: Who is rated the best character in Melee?</p>
+
+				<input type="radio" name="bestChar" value="4"><label>Fox</label>
+
+				<input type="radio" name="bestChar" value="5"><label>Marth</label>
+
+				<input type="radio" name="bestChar" value="6" checked><label>Ness</label>
+		
+
+		
+			<p>3: What is the technique of jumping and immediately air dodging diagonally downward referred to as?</p>
+
+				<input type="radio" name="bestMove" value="7"><label>Wavedashing</label>
+
+				<input type="radio" name="bestMove" value="8"><label>Funcancelling</label>
+
+				<input type="radio" name="bestMove" value="9" checked><label>Dustscooting</label>
+		
+
+		
+			<p>4: Who is considered the King of Smash?</p>
+
+				<input type="radio" name="bestKing" value="10"><label>Ken</label>
+
+				<input type="radio" name="bestKing" value="11"><label>PC Chris</label>
+
+				<input type="radio" name="bestKing" value="12" checked><label>Slime</label>
+		
+
+		
+			<p>5: How many Evos has Mang0 won as of February 2018?</p>
+
+				<input type="radio" name="bestEvo" value="13"><label>Two</label>
+
+				<input type="radio" name="bestEvo" value="14"><label>Seven</label>
+
+				<input type="radio" name="bestEvo" value="15" checked><label>Thirty Nine</label>
+		
+
+			<p>6: Who is ranked as the #1 player as of 2017?</p>
+
+				<input type="radio" name="bestPlayer" value="16"><label>Hungrybox</label>
+
+				<input type="radio" name="bestPlayer" value="17"><label>Chillindude</label>
+
+				<input type="radio" name="bestPlayer" value="18" checked><label>Toph</label>
+		
+
+		
+			<p>7: Who Killed Mufasa?</p>
+
+				<input type="radio" name="bestMuf" value="19"><label>Scar</label>
+
+				<input type="radio" name="bestMuf" value="20"><label>Armada</label>
+
+				<input type="radio" name="bestMuf" value="21" checked><label>Blur</label>
+		
+
+		
+			<p>8: Which character can perform the technique Super Wavedash?</p>
+
+				<input type="radio" name="bestSuper" value="22"><label>Samus</label>
+
+				<input type="radio" name="bestSuper" value="23"><label>Falco</label>
+
+				<input type="radio" name="bestSuper" value="24" checked><label>Squidward</label>
+		
+
+		
+			<p>9: Who gave gave us 20XX, and the era of the Arduino?</p>
+
+				<input type="radio" name="bestMessiah" value="25"><label>Hax$</label>
+
+				<input type="radio" name="bestMessiah" value="26"><label>Zhu</label>
+
+				<input type="radio" name="bestMessiah" value="27" checked><label>HugS</label>
+		
+
+		
+			<p>10: Finish this sentence...: "Roy's our _____"?</p>
+
+				<input type="text" class="bestRoy" placeholder="???">
+		
+
+		
+			<p>Click Submit when you are done</p>
+
+				<input type="button" class="button" onClick="submitMeleeQuiz()" value="submit">
+
+				<button type="reset" class="button" value="reset">Reset</button>
+		
+
+
+		</form>
+	
+
+		<h2>Your Answers</h2>
+
+			<p><strong>Answer 1:</strong> <span class="users-Cont"></span></p>
+
+			<p><strong>Answer 2:</strong> <span class="users-Char"></span></p>
+
+			<p><strong>Answer 3:</strong> <span class="users-Move"></span></p>
+
+			<p><strong>Answer 4:</strong> <span class="users-King"></span></p>
+
+			<p><strong>Answer 5:</strong> <span class="users-Evo"></span></p>
+
+			<p><strong>Answer 6:</strong> <span class="users-Player"></span></p>
+
+			<p><strong>Answer 7:</strong> <span class="users-Muf"></span></p>
+
+			<p><strong>Answer 8:</strong> <span class="users-Super"></span></p>
+
+			<p><strong>Answer 9:</strong> <span class="users-Messiah"></span></p>
+
+			<p><strong>Answer 10:</strong> <span class="users-Roy"></span></p>
+
+			<p>Your Smash Bros Aficianado score: <span class="users-Score"></span>0%</p>
+
+			<p><span class="users-Message"></span></p>
+
+
+
+
+
+
+	
+
+</div>
+<script src="js/main.js"></script>
+</body>
+</html>
